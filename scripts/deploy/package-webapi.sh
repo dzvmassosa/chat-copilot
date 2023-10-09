@@ -75,7 +75,7 @@ echo  "Building backend executables..."
 
 # Set defaults
 : "${CONFIGURATION:="Release"}"
-: "${DOTNET:="net6.0"}"
+: "${DOTNET:="net7.0"}"
 : "${RUNTIME:="linux-x64"}"
 : "${VERSION:="0.0.0"}"
 : "${INFO:=""}"
