@@ -77,7 +77,7 @@ echo  "Building backend executables..."
 : "${CONFIGURATION:="Release"}"
 : "${DOTNET:="net7.0"}"
 : "${RUNTIME:="linux-x64"}"
-: "${VERSION:="0.0.0"}"
+: "${VERSION:="1.0.0"}"
 : "${INFO:=""}"
 : "${OUTPUT_DIRECTORY:="$SCRIPT_ROOT"}"
 
