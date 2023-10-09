@@ -93,7 +93,7 @@ if [[ ! -d "$PUBLISH_ZIP_DIRECTORY" ]]; then
 fi
 
 echo "Build configuration: $CONFIGURATION"
-dotnet publish "$SCRIPT_ROOT/../../webapi/Co-pilotChatWebApi.csproj" \
+dotnet publish "$SCRIPT_ROOT/../../webapi/CopilotChatWebApi.csproj" \
     --configuration $CONFIGURATION \
     --framework $DOTNET \
     --runtime $RUNTIME \
