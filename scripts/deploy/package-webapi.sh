@@ -74,7 +74,7 @@ done
 echo  "Building backend executables..."
 
 # Set defaults
-: "${CONFIGURATION:="Rebuild"}"
+: "${CONFIGURATION:="Release"}"
 : "${DOTNET:="net7.0"}"
 : "${RUNTIME:="linux-x64"}"
 : "${VERSION:="0.0.0"}"
@@ -93,7 +93,7 @@ if [[ ! -d "$PUBLISH_ZIP_DIRECTORY" ]]; then
 fi
 
 echo "Build configuration: $CONFIGURATION"
-dotnet publish "$SCRIPT_ROOT/../../webapi/CopilotChatWebApi.csproj" \
+dotnet publish "$SCRIPT_ROOT/../../webapi/Co-pilotChatWebApi.csproj" \
     --configuration $CONFIGURATION \
     --framework $DOTNET \
     --runtime $RUNTIME \
